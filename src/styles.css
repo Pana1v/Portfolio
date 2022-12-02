@@ -1,0 +1,169 @@
+section {
+ 
+  background-color: rgb(42, 37, 49);
+  border: solid rgb(197, 197, 197) 1px;
+}
+.hero {
+  background-color: #212121;
+  height: 100vh;
+  color: #ffffff;
+  font-size: 40px;
+  height: 100vh;
+}
+footer {
+  height: 50vh;
+  background-color: rgb(120, 173, 221);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Playfair Display', serif;}
+ul {
+  display: flex;
+  list-style-type: none;
+  width: 500px;
+  justify-content: space-around;
+}
+ul:hover{
+  color:greenyellow;
+}
+li {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+li:hover{
+  color:greenyellow;
+}
+
+h1{
+  font-size: 80px;
+  margin:0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+  font-weight: 300;
+}
+.hero-text{
+  margin-left: 90px;
+  font-family: 'Bebas Neue', cursive;
+  margin-bottom: 700px;
+}
+p{
+  margin: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+.headshot
+{
+  display: flex;
+}
+.hero-area{
+  display:flex;
+  height:100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.social{
+  align-items :right;
+  fill:#ffffff;
+}
+.button{
+  width :200px;
+  height: 65px;
+  background-color: aquamarine;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+
+}
+.sub-section{
+  display: flex;
+  justify-content:space-around;
+  fill: white;
+}
+.socials
+{
+padding-bottom: 200px;
+}
+.social{
+  margin:10px;
+}
+.button:hover{
+  background-color: orange;
+
+}
+.button.active
+{
+  background-color: grey;
+}
+h1:hover{
+  color: red;
+}
+p:hover{
+  color: rgb(219, 135, 135);
+}
+.logo
+{fill:white;
+  height:80px;
+  margin:30px;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub-section{
+  display:flex;
+  justify-content: space-around;
+  padding :30px;
+}
+.info
+{
+  color:bisque;
+  margin: 10px;
+  
+}
+.container
+{
+  height:280px;
+  width:280px;
+ border-radius:50px;
+}
+.headshot{
+  align-items: center;
+}
+.project
+{
+  display: flex;
+ align-content: center;
+}
+.project-card
+{
+  margin-left:5%;
+  margin-bottom: 2%;
+  display: flex;
+  width: 85%;
+  height: 250px;
+  border:6px solid rgb(255, 255, 255);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 60px;
+ 
+}
+h2{
+  font-size: 60px;
+  margin-left : 60px;
+  justify-content:center;
+}
+hr{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.project-link
+{
+  text-decoration:none;
+  color: yellow;
+}
