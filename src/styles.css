@@ -1,14 +1,48 @@
 section {
- 
+  height: 100vh;
   background-color: rgb(42, 37, 49);
   border: solid rgb(197, 197, 197) 1px;
 }
 .hero {
-  background-color: #212121;
+ 
+  align-items: center;
+  width: auto;
+  justify-content: center;
+  margin: auto;
+  background-color: #1a1a1a;
   height: 100vh;
-  color: #ffffff;
+  color: #00ff15;
   font-size: 40px;
   height: 100vh;
+}
+nav {
+  position: sticky;
+  top: 0;
+  height: 7%;
+ font-variant: normal;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  background-color: #00ff40;
+  box-shadow: 0 3px 5px rgba(210, 3, 3, 0.1);
+  border-radius: 12px;
+  text-decoration: none;
+  
+}
+.navigation
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgb(164, 97, 70);
+  text-decoration: none;
+
+}
+.hero-subtext
+{
+  font-size: medium;
+  box-shadow: 3px #ffffff;
 }
 footer {
   height: 50vh;
@@ -44,8 +78,9 @@ h1{
 }
 .hero-text{
   margin-left: 90px;
+  align-items: center;
   font-family: 'Bebas Neue', cursive;
-  margin-bottom: 700px;
+  
 }
 p{
   margin: 0%;
@@ -68,7 +103,7 @@ p{
 .button{
   width :200px;
   height: 65px;
-  background-color: aquamarine;
+  background-color: rgb(53, 53, 53);
   border-radius: 15px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -87,14 +122,27 @@ p{
 }
 .socials
 {
-padding-bottom: 200px;
+  display: flex;
+ align-self: right;
+  flex-direction: vertical;
+  justify-content: right;
+  
 }
 .social{
   margin:10px;
 }
 .button:hover{
-  background-color: orange;
+  background-color: rgb(239, 6, 6);
 
+}
+.holo
+{
+  display: flex;
+  align-items: center;
+  height:0.02rem;
+  width: 0.04em;
+  justify-content: center;
+  align-items: center;
 }
 .button.active
 {
@@ -123,6 +171,9 @@ p{
 {
   color:bisque;
   margin: 10px;
+  padding: 40px;
+  justify-items: center;
+  
   
 }
 .container
@@ -137,21 +188,32 @@ p{
 .project
 {
   display: flex;
+  flex-direction: column;
  align-content: center;
 }
+
 .project-card
 {
+  display: flex;
+  flex-direction: column;
   margin-left:5%;
   margin-bottom: 2%;
   display: flex;
   width: 85%;
-  height: 250px;
-  border:6px solid rgb(255, 255, 255);
+  height: 150px;
+  border:2px solid rgb(255, 255, 255);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 60px;
   border-top-left-radius: 20px;
   border-top-right-radius: 60px;
  
+}
+.project-image
+{
+  border: 2px solid pink;
+  border-radius: 3px;
+  width: auto;
+  height: auto;
 }
 h2{
   font-size: 60px;
