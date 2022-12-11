@@ -16,6 +16,10 @@ section {
   
   
 }
+a{
+  text-decoration: none;
+  color:#00ff15
+}
 .hero-area
 {
   display: flex;
@@ -29,6 +33,19 @@ section {
   margin: 0 auto;
   justify-content: center;
   
+}
+.contact-cards
+{
+  margin:80px;
+  display: flex;
+  margin:30px;
+  border:#00ff15 5px solid 5%;
+  border-radius: 6px;
+  color:#00ff15;
+  justify-content: center;
+}
+.contact-cards:hover{
+  scale: 1.1;
 }
 nav {
   position: sticky;
@@ -75,7 +92,7 @@ nav {
   display: flex;
   justify-content: space-between;
   font-family: 'Playfair Display', serif;}
-ul {
+ ul {
   display: flex;
   list-style-type: none;
   width: 500px;
@@ -87,6 +104,10 @@ ul:hover{
 li {
   text-decoration: none;
   font-size: 30px;
+  text-underline-offset: 16px;
+  color: #00ff15;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 .card{
   background: #00ff15;
@@ -123,8 +144,9 @@ p{
 .hero-area{
   display:flex;
   height:100%;
-  justify-content: space-between;
+  
   align-items: center;
+
 }
 
 .social{
@@ -209,7 +231,7 @@ p{
   background-color: var(--background);
   display: block;
   font-size: medium;
-  justify-content: center;
+  
   width: 650px;
   min-height: 90px;
   border: 3px solid var(--primary);
@@ -220,9 +242,7 @@ p{
         30px -30px 0 -3px var(--background), 30px -30px var(--orange), 
         40px -40px 0 -3px var(--background), 40px -40px var(--red); 
   transition: box-shadow 1s, top 1s, left 1s;
-  position: relative;
-  top: 0;
-  left: 0;
+ 
   cursor: pointer;
 }
 .button
@@ -278,14 +298,15 @@ body {
 .sub-section{
   display:flex;
   justify-content: space-around;
-  padding :30px;
+  padding :5px;
 }
 .info
 {
   color:bisque;
-  margin: 10px;
-  padding: 40px;
+  margin: 0px;
+  padding: 0px;
   justify-items: center;
+  
   
   
 }
@@ -297,8 +318,10 @@ body {
 .project-card {
   width: auto;
   margin: auto;
+  height: 20%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: auto;
+  color: #009ece;
   
 }
 .project-card:hover {
@@ -306,7 +329,7 @@ body {
   animation: forwards;
 }
 .project-card img {
-  width: 100%;
+  width: 90%;
 }
 .project-card h3 {
   padding: 10px;
@@ -335,8 +358,9 @@ body {
 
 h2{
   font-size: 60px;
-  margin-left : 60px;
+  margin : 20px;
   justify-content:center;
+  align-items: center;
 }
 hr{
   margin-left: 20px;
@@ -357,10 +381,36 @@ hr{
   }
   50% {
     background-color: #49e819;
-    box-shadow: 0 0 20px #49e819;
+    box-shadow: 0 0 15px #49e819;
   }
   100% {
     background-color: #2ba805;
     box-shadow: 0 0 5px #2ba805;
   }
+}
+.por-card{
+  width: auto;
+  height: auto;
+  border: #FF5555;
+  border-radius: 6px;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+.por
+{
+  content: \2065;
+  font-size: large;
+  color: #000000;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 6px;
+  border: #000000 4px solid;
+  animation: glowing 3300ms infinite;
+  height: auto;
+  width: auto;
+  margin: 20px;
+  padding:5px;
+  justify-content: center;
+
 }
